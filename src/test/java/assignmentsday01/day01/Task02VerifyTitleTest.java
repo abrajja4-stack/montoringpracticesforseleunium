@@ -1,4 +1,4 @@
-package assignmentsday01;
+package assignmentsday01.day01;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,4 +1,4 @@
-package assignmentsday01;
+package assignmentsday01.day01;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
