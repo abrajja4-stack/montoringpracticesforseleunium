@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class C013CheackBoxesSlack {
+public class C013CheackBoxes {
     WebDriver driver;
 
     @Test
