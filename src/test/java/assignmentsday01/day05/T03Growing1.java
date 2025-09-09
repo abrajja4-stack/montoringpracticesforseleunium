@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class T03Growing {
+public class T03Growing1 {
     //Go to https://testpages.herokuapp.com/styled/challenges/growing-clickable.html--done
     //Click "click me" button
     //Verify "Event Triggered" appears

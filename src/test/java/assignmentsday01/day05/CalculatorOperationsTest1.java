@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class CalculatorOperationsTest {
+public class CalculatorOperationsTest1 {
     //   Go to https://testpages.eviltester.com/styled/calculator
     //   Type any number in first and second input
     //   Click Calculate for each operation

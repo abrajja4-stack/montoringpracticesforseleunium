@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class T04MultSelectOperations {
+public class T04MultSelectOperations1 {
     //Launch browser
     //Open https://demoqa.com/select-menu--done
     //Select Standard Multi-Select using element id---done

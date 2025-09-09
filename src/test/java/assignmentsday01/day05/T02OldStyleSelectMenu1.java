@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class T02OldStyleSelectMenu {
+public class T02OldStyleSelectMenu1 {
     //Launch browser
     //Open https://demoqa.com/select-menu
     //Select Old Style Select Menu using element id

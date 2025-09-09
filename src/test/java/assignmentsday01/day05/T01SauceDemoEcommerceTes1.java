@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.time.Duration;
 import java.util.List;
 
-public class T01SauceDemoEcommerceTes {
+public class T01SauceDemoEcommerceTes1 {
    /* Given: Go to https://www.saucedemo.com/---done
     When: Enter username as "standard_user"
     And: Enter password as "secret_sauce"

@@ -15,7 +15,7 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class HW10_Calculation {
+public class HW10_Calculation1 {
     /*
              Go to  https://testpages.eviltester.com/styled/calculator
              Type any number in the first input and the second input
