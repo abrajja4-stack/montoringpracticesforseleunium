@@ -25,6 +25,7 @@ public class T03DragandDropPractic extends TestBase {
     @Test
     void Drag() {
        driver.get(url);
+
         Actions actions = new Actions(driver);
 
        actions.dragAndDrop(driver.findElement(drag1ById),driver.findElement(slot1ById)).perform();

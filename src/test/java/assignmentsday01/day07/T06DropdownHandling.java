@@ -20,6 +20,7 @@ public class T06DropdownHandling extends TestBase {
     @Test
     void select() {
          driver.get(url);
+
         Select select = new Select(driver.findElement(By.xpath("//select[@id=\"carSelect\"]")));
         select.selectByVisibleText("Ford");
         driver.findElement(By.xpath("//select[@id=\"multiCarSelect\"]"));

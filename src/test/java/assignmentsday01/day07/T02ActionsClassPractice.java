@@ -36,6 +36,7 @@ By SucceshoverClickByxpath = By.xpath("//div[@id=\"hoverSuccessMessage\"]");
     @Test
     void ActionClass() {
         driver.get(url);
+
         String minHandel = driver.getWindowHandle();
         driver.findElement(submitById).click();
 

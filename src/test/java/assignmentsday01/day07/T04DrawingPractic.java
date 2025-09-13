@@ -19,6 +19,7 @@ By canvas = By.xpath("//canvas[@id=\"myCanvas\"]");
     @Test
     void Drage() {
         driver.get(url);
+
         Actions actions = new Actions(driver);
         actions
                 .moveByOffset(600, 300).clickAndHold().moveByOffset(100, 200).moveByOffset(-200, 0).moveByOffset(100, -200).release().perform();

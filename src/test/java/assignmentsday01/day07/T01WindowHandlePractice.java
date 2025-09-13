@@ -25,6 +25,7 @@ By openindxpageById = By.tagName("a");
     void clickwindow() {
 
        driver.get(URL);
+
        String FirstHandel = driver.getWindowHandle();
        driver.findElement(windowHandleByXpath).click();
         String SecndHandle = driver.getWindowHandle();
