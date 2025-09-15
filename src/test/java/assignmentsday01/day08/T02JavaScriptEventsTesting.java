@@ -68,6 +68,7 @@ actions
         .perform();
 
 //verify they are all clicked
+
         WebElement result = driver.findElement(By.xpath("//p[@class=\"challenge-completed-notification\"]"));
         Assertions.assertTrue(result.isEnabled());
 

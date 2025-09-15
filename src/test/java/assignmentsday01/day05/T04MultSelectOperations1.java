@@ -53,6 +53,7 @@ By multiselect = By.id("cars");
 
 
         //Select 'Opel' using index, then deselect using index
+
         select.selectByIndex(2);
         System.out.println(select.getFirstSelectedOption().getText());
         select.deselectByIndex(2);
