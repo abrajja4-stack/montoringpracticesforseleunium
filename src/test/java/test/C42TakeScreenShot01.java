@@ -28,7 +28,7 @@ public class C42TakeScreenShot01 extends TestBase {
     public void screenShotTest() throws IOException, InterruptedException {
  //       Go to Clarusway
         driver.get("https://opensource-demo.orangehrmlive.com/");
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         WebElement element = driver.findElement(By.className("orangehrm-login-branding"));
         JavaScriptUtils.highlightElement(driver,element);
 
@@ -37,12 +37,11 @@ public class C42TakeScreenShot01 extends TestBase {
         String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd:HH-mm-ss"));
         File screenShot = ss.getScreenshotAs(OutputType.FILE);
         Path path2 = Path.of(System.getProperty("user.dir"),"screenshot","lastScrenshot.png");
-        Path path1 = Path.of(System.getProperty("user.dir"),"target","test-output","screenshot","lastScrenshot"+timeStamp+".png");
-        Path path = Path.of(System.getProperty("user.home"),"Desktop","test-output","screenshot","Screnshot"+timeStamp+".png");
-
-        FileUtils.copyFile(screenShot,path.toFile());
+        //Path path1 = Path.of(System.getProperty("user.dir"),"target","test-output","screenshot","lastScrenshot"+timeStamp+".png");
+        //Path path = Path.of(System.getProperty("user.home"),"Desktop","test-output","screenshot","Screnshot"+timeStamp+".png");
+       // FileUtils.copyFile(screenShot,path.toFile());
  //       Take a specific element's screenshot
         File elementScreenShot = element.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(elementScreenShot,path1.toFile());
+        FileUtils.copyFile(elementScreenShot,path2.toFile());
  }
 }
