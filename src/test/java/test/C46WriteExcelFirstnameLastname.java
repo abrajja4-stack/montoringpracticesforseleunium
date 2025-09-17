@@ -47,7 +47,7 @@ public class C46WriteExcelFirstnameLastname {
 
         addNewEmployee(sheet,"Suleyman","Clarusway");
 
-        FileOutputStream fos = new FileOutputStream(Path.of(".","screenshots","resources","Employees.xlsx").toString());
+        FileOutputStream fos = new FileOutputStream(Path.of(".","resources","Employees.xlsx").toString());
         workbook.write(fos);
     }
 
